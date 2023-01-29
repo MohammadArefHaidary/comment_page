@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .checked {
+            color: orange;
+        }
+
+        @media only screen and (max-width: 855px) {
+            .larg_box {
+                border-top-left-radius: 16px;
+            }
+        }
+
+        @media only screen and (max-width: 855px) {
+            .sfarsh {
+                background-color: white;
+            }
+        }
+
+        .logo_box :nth-child(1) {
+            justify-content: center !important;
+            text-align: center !important;
+            align-items: center;
+        }
+
+        #button6 {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            /* background-color: #000; */
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        #button6:hover {
+            background-color: #555;
+        }
+
+        #more6 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+
+    <div class="container  bg-light p-0" style="width: 80%;border-radius: 16px;box-shadow: 0px 1px 3px grey;">
+        <div style="display: flex;flex-wrap: wrap;flex-direction: row-reverse;margin-top: 58px;">
+            <div class="larg_box bg-white pt-2 pb-2  align-items-center"
+                style="display: flex;flex-wrap: wrap;flex-grow: 1;justify-content: space-around;flex-direction: inherit;border-top-right-radius: 16px;">
+
+                <a href="product.html">
+                    <div class="bg-warning" style="width: 100px;height: 100px;border-radius: 50%;">
+
+                    </div>
+                </a>
+                <div class="logo_box"
+                    style="line-height:4px;display: flex;flex-direction: column;align-items: center;margin-top: 26px;">
+                    <p><b>بمیه پاساگارد</b></p>
+                    <p>طرح طلایی سه ماهه</p>
+                    <div class="d-flex align-items-baseline">
+                        <p style="margin-right: 3px;" dir="rtl"><b>4.2</b>از5(186نظر)</p>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <!-- <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></p> -->
+
+                </div>
+                <div style="line-height:20px;" dir="rtl">
+                    <p> مبلغ دریافتی شما بعد 10 سال:22000000 تومان</p>
+                    <p> مبلغ دریافتی شما بعد 10 سال:22000000 تومان</p>
+                    <p> مبلغ دریافتی شما بعد 10 سال:22000000 تومان</p>
+
+                </div>
+
+            </div>
+            <div class="sfarsh"
+                style="flex-grow: 1;display: flex;justify-content: center;flex-direction: column;align-items: center;padding: 20px;">
+                <p class="d-flex">تومان<span>600,000</span></p>
+                <button style="background-color: blue;border-radius: 7px;width: 89%;padding: 2px;">سفارش</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center"><button onclick="myFunction6()" id="button6"><span><i
+                        class="fa fa-chevron-down" aria-hidden="true"></i></span>بیشتر</button></div>
+    </div>
+    <div class="card6">
+        <p>Before show more 1</p>
+        <span id="dots6"></span>
+
+        <span id="more6">
+            <p>
+                <div class="container  bg-light p-0"
+                    style="width: 80%;border-radius: 16px;box-shadow: 0px 1px 3px grey;">
+                    <div style="display: flex;flex-wrap: wrap;flex-direction: row-reverse;margin-top: 58px;">
+                        <div class="larg_box bg-white pt-2 pb-2  align-items-center"
+                            style="display: flex;flex-wrap: wrap;flex-grow: 1;justify-content: space-around;flex-direction: inherit;border-top-right-radius: 16px;">
+
+                            <a href="product.html">
+                                <div class="bg-warning" style="width: 100px;height: 100px;border-radius: 50%;">
+
+                                </div>
+                            </a>
+                            <div class="logo_box"
+                                style="line-height:4px;display: flex;flex-direction: column;align-items: center;margin-top: 26px;">
+                                <p><b>بمیه پاساگارد</b></p>
+                                <p>طرح طلایی سه ماهه</p>
+                                <div class="d-flex align-items-baseline">
+                                    <p style="margin-right: 3px;" dir="rtl"><b>4.2</b>از5(186نظر)</p>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <!-- <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span></p> -->
+
+                            </div>
+                            <div style="line-height:20px;" dir="rtl">
+                                <p> مبلغ دریافتی شما بعد 10 سال:22000000 تومان</p>
+                                <p> مبلغ دریافتی شما بعد 10 سال:22000000 تومان</p>
+                                <p> مبلغ دریافتی شما بعد 10 سال:22000000 تومان</p>
+
+                            </div>
+
+                        </div>
+                        <div class="sfarsh"
+                            style="flex-grow: 1;display: flex;justify-content: center;flex-direction: column;align-items: center;padding: 20px;">
+                            <p class="d-flex">تومان<span>600,000</span></p>
+                            <button
+                                style="background-color: blue;border-radius: 7px;width: 89%;padding: 2px;">سفارش</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center"><button onclick="myFunction6()" id="button6"><span><i
+                                    class="fa fa-chevron-down" aria-hidden="true"></i></span>بیشتر</button></div>
+                </div>
+            </p>
+            <div class="card6">
+                <p>Before show more 1</p>
+                <span id="dots6"></span>
+
+                <span id="more6">
+                    <p>
+                        After Show more 1
+                    </p>
+                </span>
+
+
+            </div>
+
+
+
+    </div>
+
+
+    <!-- <div class="card6">
+        <p> Before Show more</p>
+        <span id="dots6"></span>
+
+        <span id="more6">
+            <p>
+                After show mor
+            </p>
+        </span>
+
+        <p><button onclick="myFunction6()" id="button6">Show more</button></p>
+    </div> -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
