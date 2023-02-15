@@ -87,6 +87,12 @@
             border: none;
             outline: none;
         }
+        @media (min-width: 768px) and (max-width:992px){
+            .fstyle {
+                flex: 0 0 auto;
+                flex-grow: 1;
+            }
+        }
     </style>
 </head>
 
@@ -176,12 +182,13 @@
                 <div class="col-10 container col-sm-6 col-md-12">
                     <div class="row" style="margin-left: 20px !important;">
                         <!-- <div class="container"> -->
-                        <div class=" d-flex justify-content-between p-0">
-                            <div class="col-8 col-md-6 col-sm-12 d-flex justify-content-evenly">
-                                <div class="d-flex"><span class="material-symbols-outlined">
-                                        sort
-                                    </span>مرتب سازی:
-                                </div>
+                        <div class="col-12 col-lg-12 col-md-12 col-xs-12 d-flex justify-content-between p-0">
+                            <div class="col-8 col-md-6 col-sm-12 d-flex justify-content-evenly fstyle">
+                                
+                                    <div><img src="images.png" alt="">
+                                    مرتب سازی:
+                                     </div>
+                            
                                 <div>جدیدترین</div>
                                 <div>دیدگاه خریداران</div>
                                 <div>مفیدترین</div>
